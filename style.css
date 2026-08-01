@@ -1,7 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
+  /* 画面全体を中央寄せにしたい場合（おすすめ） */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* 背景色（お好みで） */
 }
+
 canvas {
   display: block;
+  /* もし中央寄せせず、周りに余白だけ作りたい場合は以下のように単位(px)をつけます */
+  /* margin: 20px; */
 }
