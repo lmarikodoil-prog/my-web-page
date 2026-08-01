@@ -1,5 +1,7 @@
-body {
-  font-family: sans-serif;
-  text-align: center;
-  margin-top: 50px;
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
 }
